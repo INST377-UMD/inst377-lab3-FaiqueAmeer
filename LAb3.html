@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 - Web Page Layout</title>
+    <link rel="stylesheet" href="gamestyles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container">
+        <!-- Main Content -->
+        <main>
+            <h2>Play the Game</h2>
+            <form>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="choice">Choose:</label>
+                <select id="choice" name="choice">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <!-- Sidebar -->
+        <aside>
+            <h2>Game Rules</h2>
+            <p>Rock beats Scissors.</p>
+            <p>Scissors beat Paper.</p>
+            <p>Paper beats Rock.</p>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rock Paper Scissors Game</p>
+    </footer>
+
+</body>
+</html>
